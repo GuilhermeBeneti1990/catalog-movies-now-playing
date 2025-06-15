@@ -3,7 +3,7 @@ import api from "../../services/api";
 import { Link } from "react-router-dom";
 import './styles.css';
 
-export const API_KEY = "2b45ef7ead7afba8bbc84d8a3cf6969e";
+export const API_KEY = process.env.MOVIEDB_API_KEY;
 
 function Home() {
 
